@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<section style="text-align: center;padding: 2rem;background-color: #342c38;color: #dee3ec; height: 100vh;">
+    <img id="header-logo" src="/images/kisanii.png" alt="logo" style="max-width: 50%; border-radius: 50%;">
+    <div class="container">
+        <h1 style="color: #c94d42;">{{ .Title }}</h1>
+        <a href="mailto:booking@kisanii.ch">
+            <p style="font-size: 2rem; color: #dee3ec;">booking@kisanii.ch</p>
+        </a>
+        <p>In Bearbeitung...</p>
+    </div>
+</section>
+
+{{ end }}
