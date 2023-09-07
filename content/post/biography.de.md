@@ -1,5 +1,5 @@
 ---
-title: 'Biography'
+title: 'Biographie'
 slug: 'biography'
 image: 'images/bio.jpg'
 description: 'Musik die zum Träumen einlädt.'

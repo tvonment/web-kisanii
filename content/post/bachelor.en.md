@@ -1,5 +1,5 @@
 ---
-title: 'Bachelor Konzert'
+title: 'Bachelor Conzert'
 slug: 'bachelor'
 image: 'images/Lea Bachelor-48.jpg'
 description: 'Cycle'
