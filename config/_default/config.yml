@@ -1,13 +1,17 @@
 ######################## default configuration ####################
 baseURL: /
 title: Kisanii
-theme: hugo-theme-copper
+theme: hugo-theme-massively
 paginate: 6
 summaryLength: 10
 appinsights_instrumentationkey: ""
 defaultContentLanguage: de
 disableLanguages:
-  - en # desable language from here
+  - fr # desable language from here
+params:
+  backgroundPath: images/kisanii.png
+
+
 outputs:
   home:
     - HTML
@@ -16,3 +20,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - section

@@ -1,7 +1,7 @@
 de:
-  languageName: De
+  languageName: Deutsch
   languageCode: de-ch
-  contentDir: content/german
+  contentDir: content
   weight: 1
   footer_content: 
   title_404: Nicht gefunden
@@ -10,9 +10,9 @@ de:
   copyright: Entwickelt von Thomas
 
 en:
-  languageName: En
+  languageName: English
   languageCode: en-en
-  contentDir: content/english
+  contentDir: content
   weight: 2
   footer_content: Footer test text in English
   title_404: Not Found
