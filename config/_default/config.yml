@@ -9,7 +9,7 @@ defaultContentLanguage: de
 disableLanguages:
   - fr # desable language from here
 params:
-  backgroundPath: images/kisanii.png
+  backgroundPath: images/bio.jpg
 
 
 outputs:
