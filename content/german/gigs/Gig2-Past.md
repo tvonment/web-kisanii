@@ -1,10 +1,9 @@
 ---
-title: Gig1
+title: Gig2 Past
 date: 2024-02-21T23:00:00.000Z
-publishDate: 2020-05-05
 time: '20:00'
 description: blabla bla
 location: Mehrspur
-image: /images/Lea Bachelor-10.jpg
+image: /images/Lea Bachelor-25.jpg
 ---
 

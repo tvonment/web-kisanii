@@ -4,7 +4,8 @@
     {{ range .posts.Pages }}
     <article>
         {{ if .Params.image }}
-        <a href="{{ .Permalink }}" class="image fit"><img src="{{ .Params.image | relURL }}" alt="" /></a>
+        <a href="{{ .Permalink }}" class="image fit"><img src="{{ .Params.image | relURL }}" alt=""
+                style="object-fit: cover; width: 100%; height: 15rem;" /></a>
         {{ end }}
         <header>
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
