@@ -1,0 +1,25 @@
+<!-- Posts -->
+{{ $data := .siteData }}
+<section class="posts">
+    {{ range .posts.Pages }}
+    <article>
+        {{ if .Params.image }}
+        <a href="{{ .Permalink }}" class="image fit"><img src="{{ .Params.image | relURL }}" alt="" /></a>
+        {{ end }}
+        <header>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        </header>
+        <p style="text-align: right;">
+            {{ if not .Date.IsZero }}
+            <span class="date">{{ .Date.Format (.Site.Params.DateFormat | default "January 2, 2006") }}</span>
+            {{ end }}
+            <br>
+            <span style="font-weight: 800;">{{ .Params.time }}</span>
+        </p>
+        {{ if .Description }}
+        <p>{{ .Description }}</p>
+        {{ end }}
+        <p style="font-style: italic;"><i class="icon fa-map-marker"></i> {{ .Params.location }}</p>
+    </article>
+    {{ end }}
+</section>

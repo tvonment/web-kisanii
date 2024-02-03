@@ -32,3 +32,5 @@
   other = "First"
 [PAGINATION_LAST]
   other = "Last"
+[PAST_GIGS]
+  other = "past Gigs"

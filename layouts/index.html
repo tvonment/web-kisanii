@@ -1,0 +1,63 @@
+{{ partial "htmlhead" . }}
+
+<body lang='{{ .Site.Language.Lang | default "de-ch" }}' class="is-preload">
+	{{- $featured := slice (.Site.GetPage "/kisanii") }}
+
+	{{- $gigsFoldername := .Site.Params.Posts.foldername | default "gigs" }}
+	{{- $postsPageSize := .Site.Params.Posts.pagesize | default 10000 }}
+
+	{{- $today := now -}}
+	{{- $gigs := where .Data.Pages "Type" $gigsFoldername }}
+	{{- if .IsHome }}
+	{{- $gigs = where .Site.RegularPages "Type" $gigsFoldername }}
+	{{- end }}
+
+	{{- $futureGigs := slice -}}
+	{{- range $gigs -}}
+	{{- if .Date.After $today -}}
+	{{- $futureGigs = $futureGigs | append . -}}
+	{{- end -}}
+	{{- end -}}
+
+	{{- $pastGigs := slice -}}
+	{{- range $gigs -}}
+	{{- if .Date.Before $today -}}
+	{{- $pastGigs = $pastGigs | append . -}}
+	{{- end -}}
+	{{- end -}}
+
+	{{- $gigsPaging := .Paginate $futureGigs $postsPageSize -}}
+	{{- $gigsPastPaging := .Paginate $pastGigs $postsPageSize -}}
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		{{- partial "header" . -}}
+		{{- partial "nav" . }}
+
+		<!-- Main -->
+		<div id="main">
+
+			{{- partial "posts/featured.html" (dict "firstpost" $featured "siteData" (index .Site.Data
+			.Site.Language.Lang)) }}
+
+			{{- partial "posts/list.html" (dict "posts" $gigsPaging "siteData" (index .Site.Data .Site.Language.Lang))
+			}}
+
+			{{- partial "posts/past.html" (dict "posts" $gigsPastPaging "siteData" (index .Site.Data
+			.Site.Language.Lang))
+			}}
+		</div>
+
+		{{- partial "footer/index" . }}
+		{{- partial "copyright" . }}
+
+		<a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
+	</div>
+
+	{{- template "_internal/google_analytics.html" . }}
+	{{- partial "scripts/index" . }}
+
+</body>
+
+</html>

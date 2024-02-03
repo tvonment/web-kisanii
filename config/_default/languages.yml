@@ -1,7 +1,7 @@
 de:
   languageName: Deutsch
   languageCode: de-ch
-  contentDir: content
+  contentDir: content/german
   weight: 1
   footer_content: 
   title_404: Nicht gefunden
@@ -12,7 +12,7 @@ de:
 en:
   languageName: English
   languageCode: en-en
-  contentDir: content
+  contentDir: content/english
   weight: 2
   footer_content: Footer test text in English
   title_404: Not Found

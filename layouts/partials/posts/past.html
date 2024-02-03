@@ -1,0 +1,12 @@
+<!-- Posts -->
+{{ $data := .siteData }}
+<section class="past-gigs" style="margin-left: 3rem;">
+    <h2>{{ i18n "PAST_GIGS" $data }}</h2>
+    {{ range .posts.Pages }}
+    <article>
+        <p>{{ .Title }} - <span class="date">{{ .Date.Format (.Site.Params.DateFormat | default "January 2, 2006")
+                }} - {{ .Params.location }}</span>
+        </p>
+    </article>
+    {{ end }}
+</section>

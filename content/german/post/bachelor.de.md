@@ -7,7 +7,3 @@ disableComments: true
 ---
 
 Biz blabla
-
-![Kisanii](/images/Lea Bachelor-2.jpg)
-
-![Kisanii](/images/Lea Bachelor-6.jpg)

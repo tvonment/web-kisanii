@@ -1,0 +1,17 @@
+<!-- Featured Post -->
+{{ $data := .siteData }}
+{{ range .firstpost }}
+<article class="post featured">
+    <header class="major">
+        <h2>{{ .Title }}</h2>
+        {{ if .Content }}
+        <p>{{ .Content }}</p>
+        {{ else }}
+        <p>{{ .Summary }}</p>
+        {{ end }}
+    </header>
+    {{ if and .Params.ifImage .Params.image }}
+    <img src="{{ .Params.image | relURL }}" alt="" />
+    {{ end }}
+</article>
+{{ end }}
