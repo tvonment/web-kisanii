@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/en/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
@@ -12,6 +13,79 @@
                 rel="alternate"
                 hreflang="en-en"
                 href="/en/"
+                />
+  </url><url>
+    <loc>/en/gigs/plattentaufe/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/plattentaufe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/plattentaufe/"
+                />
+  </url><url>
+    <loc>/en/gigs/bachelorkonzert/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/bachelorkonzert/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/bachelorkonzert/"
+                />
+  </url><url>
+    <loc>/en/gigs/finale-bandxost/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/finale-bandxost/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/finale-bandxost/"
+                />
+  </url><url>
+    <loc>/en/gigs/qualifikation-bandxost/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/qualifikation-bandxost/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/qualifikation-bandxost/"
+                />
+  </url><url>
+    <loc>/en/gigs/kirchenkonzert/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/kirchenkonzert/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/kirchenkonzert/"
+                />
+  </url><url>
+    <loc>/en/gigs/feministischer-streich/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/feministischer-streich/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/feministischer-streich/"
                 />
   </url><url>
     <loc>/en/kisanii/</loc>
@@ -24,6 +98,30 @@
                 rel="alternate"
                 hreflang="en-en"
                 href="/en/kisanii/"
+                />
+  </url><url>
+    <loc>/en/pages/single/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/pages/single/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/pages/single/"
+                />
+  </url><url>
+    <loc>/en/gigs/radio-meltdown-jubilumsfeier/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/radio-meltdown-jubilumsfeier/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/radio-meltdown-jubilumsfeier/"
                 />
   </url>
 </urlset>

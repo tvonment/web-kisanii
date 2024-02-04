@@ -7,13 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>Developed by Thomas</copyright>
+    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Record launch</title>
+      <link>/en/gigs/plattentaufe/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <guid>/en/gigs/plattentaufe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bachelor Conzert</title>
+      <link>/en/gigs/bachelorkonzert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/gigs/bachelorkonzert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BandXOst Final</title>
+      <link>/en/gigs/finale-bandxost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/gigs/finale-bandxost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BandXOst Qualifikation</title>
+      <link>/en/gigs/qualifikation-bandxost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/gigs/qualifikation-bandxost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Church Concert</title>
+      <link>/en/gigs/kirchenkonzert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/gigs/kirchenkonzert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Feminist Streik</title>
+      <link>/en/gigs/feministischer-streich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/gigs/feministischer-streich/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Kisanii</title>
       <link>/en/kisanii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/kisanii/</guid>
-      <description>Some Blabla English</description>
+      <description>Music that invites you to dream. In her songs, Kisanii processes the perception of her body, her self-doubt, but also the sunny days and rays of hope.</description>
+    </item>
+    <item>
+      <title>New Single</title>
+      <link>/en/pages/single/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/pages/single/</guid>
+      <description>new single coming soon! Check back later</description>
+    </item>
+    <item>
+      <title>Radio Meltdown anniversary</title>
+      <link>/en/gigs/radio-meltdown-jubilumsfeier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/gigs/radio-meltdown-jubilumsfeier/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

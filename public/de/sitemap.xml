@@ -2,14 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/gigs/gig1/</loc>
-    <lastmod>2024-02-14T00:00:00+00:00</lastmod>
+    <loc>/gigs/bachelorkonzert/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/bachelorkonzert/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/bachelorkonzert/"
+                />
   </url><url>
-    <loc>/gigs/gig3/</loc>
-    <lastmod>2024-02-14T00:00:00+00:00</lastmod>
+    <loc>/gigs/feministischer-streich/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/feministischer-streich/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/feministischer-streich/"
+                />
+  </url><url>
+    <loc>/gigs/finale-bandxost/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/finale-bandxost/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/finale-bandxost/"
+                />
+  </url><url>
+    <loc>/gigs/kirchenkonzert/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/kirchenkonzert/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/kirchenkonzert/"
+                />
   </url><url>
     <loc>/</loc>
-    <lastmod>2024-02-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
@@ -21,9 +62,6 @@
                 href="/"
                 />
   </url><url>
-    <loc>/gigs/gig2-past/</loc>
-    <lastmod>2021-02-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/kisanii/</loc>
     <xhtml:link
                 rel="alternate"
@@ -34,6 +72,54 @@
                 rel="alternate"
                 hreflang="de-ch"
                 href="/kisanii/"
+                />
+  </url><url>
+    <loc>/pages/single/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/pages/single/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/pages/single/"
+                />
+  </url><url>
+    <loc>/gigs/plattentaufe/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/plattentaufe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/plattentaufe/"
+                />
+  </url><url>
+    <loc>/gigs/qualifikation-bandxost/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/qualifikation-bandxost/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/qualifikation-bandxost/"
+                />
+  </url><url>
+    <loc>/gigs/radio-meltdown-jubilumsfeier/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/gigs/radio-meltdown-jubilumsfeier/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/gigs/radio-meltdown-jubilumsfeier/"
                 />
   </url>
 </urlset>
