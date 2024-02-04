@@ -12,7 +12,7 @@
         </header>
         <p style="text-align: right;">
             {{ if not .Date.IsZero }}
-            <span class="date">{{ .Date.Format (.Site.Params.DateFormat | default "January 2, 2006") }}</span>
+            <span class="date">{{ .Date.Format (.Site.Params.DateFormat | default "Monday 02.01.2006") }}</span>
             {{ end }}
             <br>
             <span style="font-weight: 800;">{{ .Params.time }}</span>

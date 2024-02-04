@@ -6,12 +6,10 @@ paginate: 6
 summaryLength: 10
 appinsights_instrumentationkey: ""
 defaultContentLanguage: de
-disableFuture: false
 disableLanguages:
   - fr # desable language from here
 params:
   backgroundPath: images/bio.jpg
-  dateFormat: Monday 02.01.2006
   favicon: favicon.ico
 # Below parameters can be set to override default post settings
 # [params.posts]
