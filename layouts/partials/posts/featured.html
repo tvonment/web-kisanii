@@ -2,8 +2,8 @@
 {{ $data := .siteData }}
 {{ range .firstpost }}
 <article class="post featured">
-    <header class="major">
-        <h2>{{ .Title }}</h2>
+    <header class="major" style="font-size: 1.5rem; font-family: Kisanii-Light;">
+        <!--<h2>{{ .Title }}</h2>-->
         {{ if .Content }}
         <p>{{ .Content }}</p>
         {{ else }}
