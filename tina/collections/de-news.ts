@@ -1,18 +1,8 @@
 import { Collection } from "tinacms";
-
-const DESinglePage: Collection = {
-    name: "singlepage",
-    label: "DE Single",
-    path: "content/german/pages",
-    match: {
-        include: "single",
-    },
-    ui: {
-        allowedActions: {
-            create: false,
-            delete: false,
-        },
-    },
+const DENews: Collection = {
+    name: "denews",
+    label: "DE Aktuelles",
+    path: "content/german/news",
     fields: [
         {
             type: "string",
@@ -22,24 +12,30 @@ const DESinglePage: Collection = {
             required: true,
         },
         {
+            type: "number",
+            name: "priority",
+            label: "Priorität (1 = höchste)",
+            required: true,
+        },
+        {
             type: "string",
             name: "description",
-            label: "Beschreibung",
+            label: "Kurzbeschreibung",
             required: false,
         },
         {
             type: "image",
             name: "image",
             label: "Bild",
-            required: false,
+            required: true
         },
         {
-            type: "rich-text",
+            type: "string",
             name: "body",
-            label: "Inhalt",
-            required: true,
+            label: "Langer Text",
             isBody: true,
-        },
+            required: true,
+        }
     ],
 };
-export default DESinglePage;
+export default DENews;

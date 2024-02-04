@@ -1,0 +1,24 @@
+<!-- Posts -->
+{{ $data := .siteData }}
+<h2 id="news">{{ i18n "NEWS" . }}</h2>
+<section class="posts">
+    {{ range .news.Pages }}
+    <article>
+        {{ if .Params.image }}
+        <a href="{{ .Permalink }}" class="image fit"><img src="{{ .Params.image | relURL }}" alt=""
+                style="object-fit: cover; width: 100%; height: 15rem;" /></a>
+        {{ end }}
+        <header>
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        </header>
+        {{ if .Description }}
+        <p>{{ .Description }}</p>
+        {{ else }}
+        <p>{{ .Summary }}</p>
+        {{ end }}
+        <ul class="actions">
+            <li><a href="{{ .Permalink }}" class="button">{{ $data.post.linktext }}</a></li>
+        </ul>
+    </article>
+    {{ end }}
+</section>

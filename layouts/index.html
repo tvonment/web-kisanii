@@ -3,13 +3,16 @@
 <body lang='{{ .Site.Language.Lang | default "de-ch" }}' class="is-preload">
 	{{- $featured := slice (.Site.GetPage "/kisanii") }}
 
-	{{- $gigsFoldername := .Site.Params.Posts.foldername | default "gigs" }}
-
 	{{- $today := time now -}}
-	{{- $gigs := where .Data.Pages "Type" $gigsFoldername }}
+	{{- $gigs := where .Data.Pages "Type" "gigs" }}
+	{{- $news := where .Data.Pages "Type" "news" }}
 	{{- if .IsHome }}
-	{{- $gigs = where .Site.RegularPages "Type" $gigsFoldername }}
+	{{- $gigs = where .Site.RegularPages "Type" "gigs" }}
+	{{- $news = where .Site.RegularPages "Type" "news" }}
 	{{- end }}
+	{{- $news = sort $news "Params.priority" }}
+
+
 
 	<!-- Wrapper -->
 	<div id="wrapper" class="fade-in">
@@ -19,9 +22,20 @@
 
 		<!-- Main -->
 		<div id="main">
+			<!-- Featured Post -->
 			{{- partial "posts/featured.html" (dict "firstpost" $featured "siteData" (index .Site.Data
 			.Site.Language.Lang)) }}
+			<!-- End Featured Post -->
 
+			<!-- Posts -->
+			{{- $newsList := .Paginate $news 4 -}}
+			{{- partial "news/list.html" (dict "news" $newsList "siteData" (index .Site.Data .Site.Language.Lang))
+			}}
+			{{- $paginator := .Paginator }}
+			{{- $outer := . }}
+			{{- partial "posts/pagination.html" (dict "paginator" $paginator "outer" $outer)}}
+			<!-- End Posts -->
+			<!-- Gigs -->
 			{{ $gigsList := slice }}
 			{{ range $gigs }}
 			{{- $date := time .Params.the_date -}}
@@ -30,9 +44,9 @@
 			{{- end -}}
 			{{- end -}}
 			{{- $gigsList := sort $gigsList "Params.the_date" -}}
-			{{- $gigsList := .Paginate $gigsList 1000 -}}
 
-			{{- partial "posts/list.html" (dict "posts" $gigsList "siteData" (index .Site.Data .Site.Language.Lang))
+			{{- partial "gigs/list.html" (dict "gigs" $gigsList "siteData" (index .Site.Data
+			.Site.Language.Lang))
 			}}
 
 
@@ -44,18 +58,19 @@
 			{{- end -}}
 			{{- end -}}
 
-			<section class="past-gigs" style="margin-left: 3rem;">
+			<section class="past-gigs">
 				<h2>{{ i18n "PAST_GIGS" . }}</h2>
 				{{ range $gigsList }}
-				<article>
+				<article style="margin: 0;">
 					{{ $date := time .Params.the_date }}
-					<p>{{ .Title }} -
+					<p style="margin: 0;">{{ .Title }} -
 						<span class="date">{{ $date.Format (.Site.Params.DateFormat | default "January 2, 2006")
 							}} - {{ .Params.location }}</span>
 					</p>
 				</article>
 				{{ end }}
 			</section>
+			<!-- End Gigs -->
 		</div>
 
 		{{- partial "footer/index" . }}

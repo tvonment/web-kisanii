@@ -34,12 +34,6 @@ const ENGig: Collection = {
             name: "location",
             label: "Location",
             required: true,
-        },
-        {
-            type: "image",
-            name: "image",
-            label: "Image",
-            required: false,
         }
     ],
 };

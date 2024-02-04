@@ -15,6 +15,8 @@
                 href='{{ .url | relLangURL }}'>{{- .title -}}</a></li>
         {{- end -}}
         {{- end -}}
+        <li><a href='{{ "#news" | relLangURL }}'>{{ i18n "NEWS" . }}</a></li>
+        <li><a href='{{ "#live" | relLangURL }}'>{{ i18n "GIGS" . }}</a></li>
         {{ with $data.contactinfo }}
         <li><a href='{{ "#footer" | relLangURL }}'>{{ i18n "NAV_CONTACT" . }}</a></li>
         {{ end }}

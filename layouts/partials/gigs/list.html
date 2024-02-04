@@ -1,0 +1,23 @@
+<!-- Posts -->
+{{ $data := .siteData }}
+<h2 id="live">{{ i18n "GIGS" . }}</h2>
+<section class="posts">
+    {{ range .gigs }}
+    <article>
+        <header>
+            <h3>{{ .Title }}</h3>
+        </header>
+        <p style="text-align: right;">
+            {{ $date := time .Params.the_date }}
+            <span class="date">{{ $date.Format (.Site.Params.DateFormat | default "Monday 02.01.2006")
+                }}</span>
+            <br>
+            <span style="font-weight: 800;">{{ .Params.time }}</span>
+        </p>
+        {{ if .Description }}
+        <p>{{ .Description }}</p>
+        {{ end }}
+        <p style="font-style: italic;"><i class="icon fa-map-marker"></i> {{ .Params.location }}</p>
+    </article>
+    {{ end }}
+</section>

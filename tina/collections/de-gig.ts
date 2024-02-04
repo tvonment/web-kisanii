@@ -34,12 +34,6 @@ const DEGig: Collection = {
             name: "location",
             label: "Location",
             required: true,
-        },
-        {
-            type: "image",
-            name: "image",
-            label: "Bild",
-            required: false,
         }
     ],
 };

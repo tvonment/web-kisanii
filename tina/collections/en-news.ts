@@ -1,45 +1,41 @@
 import { Collection } from "tinacms";
-
-const ENSinglePage: Collection = {
-    name: "ensinglepage",
-    label: "EN Single",
-    path: "content/english/pages",
-    match: {
-        include: "single",
-    },
-    ui: {
-        allowedActions: {
-            create: false,
-            delete: false,
-        },
-    },
+const ENNews: Collection = {
+    name: "ennews",
+    label: "EN Aktuelles",
+    path: "content/english/news",
     fields: [
         {
             type: "string",
             name: "title",
-            label: "Title",
+            label: "Titel",
             isTitle: true,
+            required: true,
+        },
+        {
+            type: "number",
+            name: "priority",
+            label: "Priority (1 = highest)",
             required: true,
         },
         {
             type: "string",
             name: "description",
-            label: "Description",
+            label: "short description",
             required: false,
         },
         {
             type: "image",
             name: "image",
             label: "Image",
-            required: false,
+            required: true
         },
         {
-            type: "rich-text",
+            type: "string",
             name: "body",
             label: "Content",
-            required: true,
             isBody: true,
-        },
+            required: true,
+        }
     ],
 };
-export default ENSinglePage;
+export default ENNews;

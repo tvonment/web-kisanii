@@ -34,3 +34,7 @@
   other = "Last"
 [PAST_GIGS]
   other = "past concerts"
+[GIGS]
+  other = "Live"
+[NEWS]
+  other = "News"

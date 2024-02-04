@@ -34,3 +34,7 @@
   other = "Letztes"
 [PAST_GIGS]
   other = "vergangene Konzerte"
+[GIGS]
+  other = "Live"
+[NEWS]
+  other = "Aktuelles"
