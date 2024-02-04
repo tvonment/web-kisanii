@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'Kisanii';
+	src: url('/SuisseIntlCond-Regular.otf');
+}
+
+@font-face {
+	font-family: 'Kisanii-Light';
+	src: url('/SuisseIntlCond-Light.otf');
+}
+
 // Misc.
 $misc: (
 	z-index-base: 10000
@@ -19,9 +29,9 @@ $size: (
 
 // Font.
 $font: (
-	family: ('Merriweather', Georgia, serif),
-	family-heading: ('Merriweather', Georgia, serif),
-	family-fixed: ('Courier New', monospace),
+	family: ('Kisanii', 'Merriweather', Georgia, serif),
+	family-heading: ('Kisanii', 'Merriweather', Georgia, serif),
+	family-fixed: ('Kisanii-Light', 'Courier New', monospace),
 	weight: 200,
 	weight-bold: 400,
 	weight-heading: 300
