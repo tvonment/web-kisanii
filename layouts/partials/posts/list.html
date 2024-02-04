@@ -11,9 +11,9 @@
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         </header>
         <p style="text-align: right;">
-            {{ if not .Date.IsZero }}
-            <span class="date">{{ .Date.Format (.Site.Params.DateFormat | default "Monday 02.01.2006") }}</span>
-            {{ end }}
+            {{ $date := time .Params.the_date }}
+            <span class="date">{{ $date.Format (.Site.Params.DateFormat | default "Monday 02.01.2006")
+                }}</span>
             <br>
             <span style="font-weight: 800;">{{ .Params.time }}</span>
         </p>

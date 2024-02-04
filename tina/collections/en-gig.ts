@@ -13,7 +13,7 @@ const ENGig: Collection = {
         },
         {
             type: "datetime",
-            name: "date",
+            name: "the_date",
             label: "Date",
             required: true,
         },

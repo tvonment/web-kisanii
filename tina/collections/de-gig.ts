@@ -13,7 +13,7 @@ const DEGig: Collection = {
         },
         {
             type: "datetime",
-            name: "date",
+            name: "the_date",
             label: "Datum",
             required: true,
         },

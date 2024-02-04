@@ -22,30 +22,40 @@
 			{{- partial "posts/featured.html" (dict "firstpost" $featured "siteData" (index .Site.Data
 			.Site.Language.Lang)) }}
 
-			{{ $futureGigs := slice }}
+			{{ $gigsList := slice }}
 			{{ range $gigs }}
-			{{- if .Params.date.After $today -}}
-			{{- $futureGigs = $futureGigs | append . -}}
+			{{- $date := time .Params.the_date -}}
+			{{- if $date.After $today -}}
+			{{- $gigsList = $gigsList | append . -}}
 			{{- end -}}
 			{{- end -}}
-			{{- $futureGigs := .Paginate $futureGigs 1000 -}}
+			{{- $gigsList := sort $gigsList "Params.the_date" -}}
+			{{- $gigsList := .Paginate $gigsList 1000 -}}
 
-			{{- partial "posts/list.html" (dict "posts" $futureGigs "siteData" (index .Site.Data .Site.Language.Lang))
+			{{- partial "posts/list.html" (dict "posts" $gigsList "siteData" (index .Site.Data .Site.Language.Lang))
 			}}
 
 
-			{{- $pastGigs := slice -}}
+			{{- $gigsList := slice -}}
 			{{- range $gigs -}}
-			{{- if .Params.date.Before $today -}}
-			{{- $pastGigs = $pastGigs | append . -}}
+			{{- $date := time .Params.the_date -}}
+			{{- if $date.Before $today -}}
+			{{- $gigsList = $gigsList | append . -}}
 			{{- end -}}
 			{{- end -}}
 
-			{{- $pastGigs := .Paginate $pastGigs 10000 -}}
-
-			{{- partial "posts/past.html" (dict "posts" $pastGigs "siteData" (index .Site.Data
-			.Site.Language.Lang))
-			}}
+			<section class="past-gigs" style="margin-left: 3rem;">
+				<h2>{{ i18n "PAST_GIGS" . }}</h2>
+				{{ range $gigsList }}
+				<article>
+					{{ $date := time .Params.the_date }}
+					<p>{{ .Title }} -
+						<span class="date">{{ $date.Format (.Site.Params.DateFormat | default "January 2, 2006")
+							}} - {{ .Params.location }}</span>
+					</p>
+				</article>
+				{{ end }}
+			</section>
 		</div>
 
 		{{- partial "footer/index" . }}

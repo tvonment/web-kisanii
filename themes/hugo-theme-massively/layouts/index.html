@@ -1,67 +1,72 @@
 {{ partial "htmlhead" . }}
-	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
 
-		{{- $postsFoldername := .Site.Params.Posts.foldername | default "post" }}
-		{{- $postsPageSize := .Site.Params.Posts.pagesize | default 6 }}
+<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
 
-		{{- .Scratch.Set "postsFeaturedPostEnabled" true }}
-		{{- if (or (eq .Site.Params.Posts.featuredpost "false") (eq .Site.Params.Posts.featuredpost false)) }}
-			{{- .Scratch.Set "postsFeaturedPostEnabled" false }}
-		{{- end }}
-		{{- $postsFeaturedPostEnabled := .Scratch.Get "postsFeaturedPostEnabled" }}
+	{{- $postsFoldername := .Site.Params.Posts.foldername | default "post" }}
+	{{- $postsPageSize := .Site.Params.Posts.pagesize | default 6 }}
 
-		{{- $posts := where .Data.Pages "Type" $postsFoldername }}
+	{{- .Scratch.Set "postsFeaturedPostEnabled" true }}
+	{{- if (or (eq .Site.Params.Posts.featuredpost "false") (eq .Site.Params.Posts.featuredpost false)) }}
+	{{- .Scratch.Set "postsFeaturedPostEnabled" false }}
+	{{- end }}
+	{{- $postsFeaturedPostEnabled := .Scratch.Get "postsFeaturedPostEnabled" }}
 
-		{{- if .IsHome }}
-		{{- $posts = where .Site.RegularPages "Type" $postsFoldername }}
-		{{- end }}
+	{{- $posts := where .Data.Pages "Type" $postsFoldername }}
 
-		{{- $firstPost := first 1 $posts }}
+	{{- if .IsHome }}
+	{{- $posts = where .Site.RegularPages "Type" $postsFoldername }}
+	{{- end }}
 
-		{{- if and (eq $postsFeaturedPostEnabled true) (gt (len $posts) 1) -}}
-			{{- .Scratch.Set "postsForPaging" (after 1 $posts) }}
-		{{- else }}
-			{{- .Scratch.Set "postsForPaging" $posts }}
+	{{- $firstPost := first 1 $posts }}
+
+	{{- if and (eq $postsFeaturedPostEnabled true) (gt (len $posts) 1) -}}
+	{{- .Scratch.Set "postsForPaging" (after 1 $posts) }}
+	{{- else }}
+	{{- .Scratch.Set "postsForPaging" $posts }}
+	{{- end -}}
+	{{- $postsForPaging := .Scratch.Get "postsForPaging" -}}
+
+	{{- $postsPaging := .Paginate $postsForPaging $postsPageSize -}}
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in" data-pfn="{{ $postsFoldername }}" data-ps="{{ $postsPageSize }}"
+		data-pfp="{{ $postsFeaturedPostEnabled }}">
+
+		{{- if eq $postsPaging.PageNumber 1 -}}
+		{{- partial "intro.html" . -}}
 		{{- end -}}
-		{{- $postsForPaging := .Scratch.Get "postsForPaging" -}}
 
-		{{- $postsPaging := .Paginate $postsForPaging $postsPageSize -}}
+		{{- partial "header" . -}}
+		{{- partial "nav" . }}
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in" data-pfn="{{ $postsFoldername }}" data-ps="{{ $postsPageSize }}" data-pfp="{{ $postsFeaturedPostEnabled }}">
+		<!-- Main -->
+		<div id="main">
 
-				{{- if eq $postsPaging.PageNumber 1 -}}
-				{{- partial "intro.html" . -}}
-				{{- end -}}
+			{{- if (eq $postsFeaturedPostEnabled true) }}
+			{{- partial "posts/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data
+			.Site.Language.Lang)) }}
+			{{- end }}
 
-				{{- partial "header" . -}}
-				{{- partial "nav" . }}
+			{{- if (not (and (eq (len $posts) 1) (eq $postsFeaturedPostEnabled true))) }}
+			{{- partial "posts/list.html" (dict "posts" $postsPaging "siteData" (index .Site.Data .Site.Language.Lang))
+			}}
+			{{- end }}
 
-				<!-- Main -->
-					<div id="main">
+			{{- $paginator := .Paginator }}
+			{{- $outer := . }}
+			{{- partial "posts/pagination.html" (dict "paginator" $paginator "outer" $outer)}}
 
-						{{- if (eq $postsFeaturedPostEnabled true) }}
-						{{- partial "posts/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
-						{{- end }}
+		</div>
 
-						{{- if (not (and (eq (len $posts) 1) (eq $postsFeaturedPostEnabled true))) }}
-							{{- partial "posts/list.html" (dict "posts" $postsPaging "siteData" (index .Site.Data .Site.Language.Lang)) }}
-						{{- end }}
+		{{- partial "footer/index" . }}
+		{{- partial "copyright" . }}
 
-						{{- $paginator := .Paginator }}
-						{{- $outer := . }}
-						{{- partial "posts/pagination.html" (dict "paginator" $paginator "outer" $outer)}}
+		<a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
+	</div>
 
-					</div>
+	{{- template "_internal/google_analytics.html" . }}
+	{{- partial "scripts/index" . }}
 
-					{{- partial "footer/index" . }}
-					{{- partial "copyright" . }}
+</body>
 
-					<a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
-			</div>
-
-			{{- template "_internal/google_analytics.html" . }}
-			{{- partial "scripts/index" . }}
-
-	</body>
 </html>
