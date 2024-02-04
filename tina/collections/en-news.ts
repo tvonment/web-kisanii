@@ -36,7 +36,7 @@ const ENNews: Collection = {
             required: true
         },
         {
-            type: "string",
+            type: "rich-text",
             name: "body",
             label: "Content",
             isBody: true,

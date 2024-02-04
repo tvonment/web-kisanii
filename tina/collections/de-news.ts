@@ -36,7 +36,7 @@ const DENews: Collection = {
             required: true
         },
         {
-            type: "string",
+            type: "rich-text",
             name: "body",
             label: "Langer Text",
             isBody: true,
