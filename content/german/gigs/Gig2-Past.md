@@ -1,10 +1,10 @@
 ---
-publishDate: 2020-05-05T00:00:00.000Z
-title: Gig2 Past
-date: 2021-02-14T00:00:00.000Z
-time: '20:00'
-description: blabla bla
-location: Mehrspur
-image: /images/Lea Bachelor-25.jpg
+publishDate: '2020-05-05T00:00:00.000Z'
+title: Kirchenkonzert
+date: 2024-04-13T22:00:00.000Z
+time: tbd
+description: Ein Begleitkonzert am Gottesdienst
+location: Ref. Kirche Oberrieden
+image: /images/bandxost_1.jpg
 ---
 
