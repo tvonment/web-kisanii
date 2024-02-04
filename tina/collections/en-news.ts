@@ -12,6 +12,12 @@ const ENNews: Collection = {
             required: true,
         },
         {
+            type: "datetime",
+            name: "date",
+            label: "Datum",
+            required: false,
+        },
+        {
             type: "number",
             name: "priority",
             label: "Priority (1 = highest)",

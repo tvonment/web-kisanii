@@ -12,6 +12,12 @@ const DENews: Collection = {
             required: true,
         },
         {
+            type: "datetime",
+            name: "date",
+            label: "Datum",
+            required: false,
+        },
+        {
             type: "number",
             name: "priority",
             label: "Priorität (1 = höchste)",
