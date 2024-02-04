@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kisanii</title>
+    <link>/</link>
+    <description>Recent content on Kisanii</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-ch</language>
+    <copyright>Entwickelt von Thomas</copyright>
+    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gig1</title>
+      <link>/gigs/gig1/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/gigs/gig1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gig3</title>
+      <link>/gigs/gig3/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/gigs/gig3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gig2 Past</title>
+      <link>/gigs/gig2-past/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/gigs/gig2-past/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kisanii</title>
+      <link>/kisanii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kisanii/</guid>
+      <description>Musik die zum Träumen einlädt. In ihren Songs verarbeitet Kisanii die Wahrnehmung ihres Körpers, ihrer Selbstzweifel aber auch der Sonnentage und Lichtblicke.</description>
+    </item>
+  </channel>
+</rss>
