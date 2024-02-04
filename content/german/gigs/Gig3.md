@@ -1,11 +1,10 @@
 ---
-publishDate: 2020-05-05T00:00:00.000Z
-title: Gig3
-date: 2024-02-14T00:00:00.000Z
-time: '20:00'
-description: blabla bla
-location: Mehrspur
-image: /images/Lea Bachelor-10.jpg
+publishDate: '2020-05-05T00:00:00.000Z'
+title: Plattentaufe
+date: 2024-04-18T22:00:00.000Z
+time: tbd
+description: Unsere erste Platte kommt raus!!! Verpasse das nicht!
+location: Werk 21 Dynamo Zürich
+image: /images/bandxost_2.jpg
 ---
 
- 
