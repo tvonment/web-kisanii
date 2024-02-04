@@ -1,10 +1,9 @@
 ---
 title: Kirchenkonzert
-the_date: '2024-04-13T22:00:00.000Z'
-time: tbd
-description: Ein Begleitkonzert am Gottesdienst
+the_date: 2024-04-13T22:00:00.000Z
+time: '17:00'
+description: Ein Begleitkonzert
 location: Ref. Kirche Oberrieden
 image: /images/bandxost_1.jpg
 ---
-
 
