@@ -1,11 +1,9 @@
 ---
-title: News1
+title: Crowdfunding - Debut EP
+date: 2024-02-01T00:00:00.000Z
 priority: 100
-description: Short description
-date: 2024-01-01T22:00:00.000Z
-image: /images/Lea Bachelor-2.jpg
+description: 'https://wemakeit.com/projects/debut-ep-cycle'
+image: /images/Foto Lea zugeschitten.jpeg
 ---
 
-
-Some fantastic news in full length!
-
+meine erste EP  Ich habe in Form meines Bachelorkonzertes 5 1/5 Stücke komponiert und zusammen mit meiner Band auf die Bühne gebracht. Mit genau diesen Stücken sind wir danach ins Studio um diese auf einer EP zu verewigen. Um den ganzen Produktionsprozess finanzieren zu können brauche ich eure Hilfe. In meinem ersten Album «Cycle» erzähle ich von den Hochs und Tiefs meines natürlichen Zyklus’. Diese Thematik ist sehr persönlich und geht mir auch sehr nahe. Das Projekt Kisanii ist mein absolutes Herzensprojekt und ich versuche meine ganze Energie in dieses Projekt zu stecken. Mit den Einnahmen von Crowdfunding finanziere ich die Studiotage, den Mixprozess, die Musiker*innen, meine Grafikerin und die Videos für die Promo-Aktion.
