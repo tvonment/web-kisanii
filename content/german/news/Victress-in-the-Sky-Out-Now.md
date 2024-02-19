@@ -12,3 +12,5 @@ Die Kriegerin im Himmel, die Sonne, die die dunkle Nacht besiegt. Die Single
 «Victress in the Sky» handelt vom Erwachen aus einer dunklen Zeit. Die
 Singer-Songwriterin Kisanii startet mit diesem Lied die Reise durch ihren Menstruations-Zyklus
 und das immer wiederkehrende Erwachen aus dunklen Tagen.
+
+[https://linktr.ee/kisanii](https://linktr.ee/kisanii)
