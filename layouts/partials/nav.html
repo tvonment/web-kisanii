@@ -23,33 +23,26 @@
     </ul>
     {{ with $data.social }}
     <ul class="icons">
-        {{ with .twitter }}
-        <li><a href="{{ . }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        {{ with .tree }}
+        <li><a href="{{ . }}" class="icon fa-tree"><span class="label">Linktree</span></a></li>
         {{ end }}
-        {{ with .facebook }}
-        <li><a href="{{ . }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        {{ with .apple }}
+        <li><a href="{{ . }}" class="icon fa-apple"><span class="label">Apple Music</span></a></li>
+        {{ end }}
+        {{ with .spotify }}
+        <li><a href="{{ . }}" class="icon fa-spotify"><span class="label">Spotify</span></a></li>
         {{ end }}
         {{ with .instagram }}
         <li><a href="{{ . }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
         {{ end }}
-        {{ with .linkedin }}
-        <li><a href="{{ . }}" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-        {{ end }}
-        {{ with .github }}
-        <li><a href="{{ . }}" class="icon fa-github"><span class="label">GitHub</span></a></li>
+        {{ with .facebook }}
+        <li><a href="{{ . }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
         {{ end }}
         {{ with .youtube }}
         <li><a href="{{ . }}" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
         {{ end }}
-        {{ with .googleplus }}
-        <li><a href="{{ . }}" class="icon fa-google-plus"><span class="label">Google Plus</span></a></li>
-        {{ end }}
-        {{ with .lastfm }}
-        <li><a href="{{ . }}" class="icon fa-lastfm"><span class="label">Last.fm</span></a></li>
-        {{ end }}
-        {{ with .flickr }}
-        <li><a href="{{ . }}" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
-        {{ end }}
+
+
     </ul>
     {{ end }}
     <ul class="links" style="flex-direction: row-reverse;">
