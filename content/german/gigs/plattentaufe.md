@@ -1,9 +1,8 @@
 ---
 title: Plattentaufe
-the_date: '2024-04-18T22:00:00.000Z'
+the_date: 2024-04-17T22:00:00.000Z
 time: tbd
-description: Unsere erste Platte kommt raus!!! Verpasse das nicht!
+description: 'Physical Album Release '
 location: Werk 21 Dynamo Zürich
 ---
-
 
