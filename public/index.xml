@@ -7,7 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-ch</language>
     <copyright>Entwickelt von Thomas</copyright>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crowdfunding - Debut EP</title>
+      <link>/news/news1/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/news/news1/</guid>
+      <description>Meine erste EP Ich habe in Form meines Bachelorkonzertes 5 1/5 Stücke komponiert und zusammen mit meiner Band auf die Bühne gebracht.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/promo/onedrive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/promo/onedrive/</guid>
+      <description>Go To: OneDrive</description>
+    </item>
     <item>
       <title>Bachelorkonzert</title>
       <link>/gigs/bachelorkonzert/</link>
@@ -30,18 +45,25 @@
       <description></description>
     </item>
     <item>
-      <title>Kirchenkonzert</title>
+      <title>Kisanii</title>
+      <link>/kisanii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kisanii/</guid>
+      <description>Musik die zum Träumen einlädt. In ihren Songs verarbeitet Kisanii die Wahrnehmung ihres Körpers, ihrer Selbstzweifel aber auch der Sonnentage und Lichtblicke.</description>
+    </item>
+    <item>
+      <title>Kisanii Live</title>
       <link>/gigs/kirchenkonzert/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/gigs/kirchenkonzert/</guid>
       <description></description>
     </item>
     <item>
-      <title>Kisanii</title>
-      <link>/kisanii/</link>
+      <title>Kulturbrunch Herisau</title>
+      <link>/gigs/kulturbrunch-herisau/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/kisanii/</guid>
-      <description>Musik die zum Träumen einlädt. In ihren Songs verarbeitet Kisanii die Wahrnehmung ihres Körpers, ihrer Selbstzweifel aber auch der Sonnentage und Lichtblicke.</description>
+      <guid>/gigs/kulturbrunch-herisau/</guid>
+      <description></description>
     </item>
     <item>
       <title>Neue Single</title>
@@ -51,7 +73,7 @@
       <description>Neue Infos zu meiner neuen Single folgen bald! Schau später wieder vorbei!</description>
     </item>
     <item>
-      <title>Plattentaufe</title>
+      <title>Physical Album Release </title>
       <link>/gigs/plattentaufe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/gigs/plattentaufe/</guid>

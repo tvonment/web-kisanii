@@ -1,4 +1,12 @@
 @import url(font-awesome.min.css);
+@font-face {
+  font-family: 'Kisanii';
+  src: url("/SuisseIntlCond-Regular.otf"); }
+
+@font-face {
+  font-family: 'Kisanii-Light';
+  src: url("/SuisseIntlCond-Light.otf"); }
+
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn

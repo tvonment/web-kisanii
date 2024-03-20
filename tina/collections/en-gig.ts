@@ -16,6 +16,13 @@ const ENGig: Collection = {
             name: "the_date",
             label: "Date",
             required: true,
+            ui: {
+                parse: (input) => {
+                    let date = new Date(input)
+                    date.setHours(2, 0, 0, 0)
+                    return date.toISOString()
+                }
+            },
         },
         {
             type: "string",

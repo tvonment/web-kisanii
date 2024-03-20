@@ -2,29 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/gigs/bachelorkonzert/</loc>
+    <loc>/news/news1/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/gigs/bachelorkonzert/"
+                href="/en/news/news1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/gigs/bachelorkonzert/"
+                href="/news/news1/"
                 />
   </url><url>
-    <loc>/gigs/feministischer-streich/</loc>
+    <loc>/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/gigs/feministischer-streich/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/gigs/feministischer-streich/"
+                href="/"
                 />
+  </url><url>
+    <loc>/promo/onedrive/</loc>
+  </url><url>
+    <loc>/gigs/bachelorkonzert/</loc>
+  </url><url>
+    <loc>/gigs/feministischer-streich/</loc>
   </url><url>
     <loc>/gigs/finale-bandxost/</loc>
     <xhtml:link
@@ -36,6 +44,18 @@
                 rel="alternate"
                 hreflang="de-ch"
                 href="/gigs/finale-bandxost/"
+                />
+  </url><url>
+    <loc>/kisanii/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="/en/kisanii/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="/kisanii/"
                 />
   </url><url>
     <loc>/gigs/kirchenkonzert/</loc>
@@ -50,29 +70,7 @@
                 href="/gigs/kirchenkonzert/"
                 />
   </url><url>
-    <loc>/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-ch"
-                href="/"
-                />
-  </url><url>
-    <loc>/kisanii/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-en"
-                href="/en/kisanii/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-ch"
-                href="/kisanii/"
-                />
+    <loc>/gigs/kulturbrunch-herisau/</loc>
   </url><url>
     <loc>/pages/single/</loc>
     <xhtml:link

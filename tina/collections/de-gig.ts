@@ -16,6 +16,13 @@ const DEGig: Collection = {
             name: "the_date",
             label: "Datum",
             required: true,
+            ui: {
+                parse: (input) => {
+                    let date = new Date(input)
+                    date.setHours(2, 0, 0, 0)
+                    return date.toISOString()
+                }
+            },
         },
         {
             type: "string",

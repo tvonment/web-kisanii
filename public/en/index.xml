@@ -7,20 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     <copyright>Developed by Thomas</copyright>
-    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Record launch</title>
+      <title>Crowdfunding für Debut-EP </title>
+      <link>/en/news/news1/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/en/news/news1/</guid>
+      <description>My first EP, &amp;ldquo;Cycle,&amp;rdquo; consists of 5 1/5 pieces of music that I composed and performed with my band during my bachelor concert.</description>
+    </item>
+    <item>
+      <title>Physical Album Release</title>
       <link>/en/gigs/plattentaufe/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       <guid>/en/gigs/plattentaufe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bachelor Conzert</title>
-      <link>/en/gigs/bachelorkonzert/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/gigs/bachelorkonzert/</guid>
       <description></description>
     </item>
     <item>
@@ -38,17 +38,10 @@
       <description></description>
     </item>
     <item>
-      <title>Church Concert</title>
-      <link>/en/gigs/kirchenkonzert/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/gigs/kirchenkonzert/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Feminist Streik</title>
-      <link>/en/gigs/feministischer-streich/</link>
+      <link>/en/gigs/feministischer-streik/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/gigs/feministischer-streich/</guid>
+      <guid>/en/gigs/feministischer-streik/</guid>
       <description></description>
     </item>
     <item>
@@ -57,6 +50,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/kisanii/</guid>
       <description>Music that invites you to dream. In her songs, Kisanii processes the perception of her body, her self-doubt, but also the sunny days and rays of hope.</description>
+    </item>
+    <item>
+      <title>Kisanii Live with full Band</title>
+      <link>/en/gigs/kirchenkonzert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/gigs/kirchenkonzert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kulturbrunch</title>
+      <link>/en/gigs/kulturbrunch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/gigs/kulturbrunch/</guid>
+      <description></description>
     </item>
     <item>
       <title>New Single</title>
