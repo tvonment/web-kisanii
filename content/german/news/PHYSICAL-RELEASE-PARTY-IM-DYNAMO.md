@@ -1,5 +1,5 @@
 ---
-title: PHYSICAL RELEASE PARTY IM DYNAMO
+title: PHYSICAL RELEASE PARTY IM DYNAMO 18.4.!!!
 date: 2024-04-14T22:00:00.000Z
 priority: 1
 description: Kisanii mit voller Band Live im Dynamo in Zürich!!
