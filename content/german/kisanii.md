@@ -5,4 +5,4 @@ image: images/Lea Bachelor-48.jpg
 title: Kisanii
 ---
 
-Musik die zum Träumen einlädt. In ihren Songs verarbeitet Kisanii die Wahrnehmung ihres Körpers, ihrer Selbstzweifel aber auch der Sonnentage und Lichtblicke. Mit sphärischen Klängen und einer starken Stimme erzählt Kisanii dem Publikum ihre Gedanken und Gefühle zu unserem Platz in dieser Welt.
+Kisanii ist verletzlich, authentisch und unaufhaltsam ehrlich. Mit viel Platz für eigene Gedanken nimmt Kisanii ihre Hörerschaft mit auf eine Reise in emotionale Abgründe und berauschende Höhenflüge. Ihre starke Stimme lässt Herzen höher schlagen. Musikalisch überrascht sie mit mutigen Wendungen und einem Sound, der Genre-Grenzen spielerisch hinter sich lässt.
