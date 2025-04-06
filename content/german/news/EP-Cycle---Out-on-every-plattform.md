@@ -10,5 +10,7 @@ image: /images/24_Kisanii_Uterus.jpg
 ---
 
 „Cycle“ – Kisanii’s Debüt-EP ist da.
+
+[https://tr.ee/Z4TVNvG4FM](https://tr.ee/Z4TVNvG4FM)
 In fünf eindringlichen Tracks erzählt Kisanii von Wiederholungen, inneren Kämpfen und der Kraft, sich aus ihnen zu befreien. Jeder Song ist Teil eines Zyklus – aus Emotion, Reflexion und Aufbruch. Mit ihrer markanten Stimme, verletzlicher Ehrlichkeit und musikalischen Überraschungsmomenten erschafft Kisanii eine Atmosphäre, die fesselt und befreit.
 Cycle ist mehr als Musik – es ist ein Gefühl, ein Spiegel, ein Anfang.
