@@ -2,95 +2,207 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kisanii</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Kisanii</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>de-ch</language>
     <copyright>Entwickelt von Thomas</copyright>
-    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Apr 2025 22:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Crowdfunding - Debut EP</title>
-      <link>/news/news1/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>/news/news1/</guid>
-      <description>Meine erste EP Ich habe in Form meines Bachelorkonzertes 5 1/5 Stücke komponiert und zusammen mit meiner Band auf die Bühne gebracht.</description>
+      <title>Radiointerview im SR </title>
+      <link>//localhost:1313/news/radiointerview-im-sr-/</link>
+      <pubDate>Sat, 05 Apr 2025 22:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/radiointerview-im-sr-/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.sr-mediathek.de/index.php?seite=7%5c&amp;amp;id=151550&#34; title=&#34;Interview im SR Kultur&#34;&gt;https://www.sr-mediathek.de/index.php?seite=7&amp;amp;id=151550&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>&#34;EP Cycle&#34; - Out on every plattform</title>
+      <link>//localhost:1313/news/ep-cycle---out-on-every-plattform/</link>
+      <pubDate>Thu, 13 Mar 2025 23:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/ep-cycle---out-on-every-plattform/</guid>
+      <description>&lt;p&gt;„Cycle“ – Kisanii’s Debüt-EP ist da.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tr.ee/Z4TVNvG4FM&#34;&gt;https://tr.ee/Z4TVNvG4FM&lt;/a&gt;&#xA;In fünf eindringlichen Tracks erzählt Kisanii von Wiederholungen, inneren Kämpfen und der Kraft, sich aus ihnen zu befreien. Jeder Song ist Teil eines Zyklus – aus Emotion, Reflexion und Aufbruch. Mit ihrer markanten Stimme, verletzlicher Ehrlichkeit und musikalischen Überraschungsmomenten erschafft Kisanii eine Atmosphäre, die fesselt und befreit.&#xA;Cycle ist mehr als Musik – es ist ein Gefühl, ein Spiegel, ein Anfang.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Single-Release Tailwind</title>
+      <link>//localhost:1313/news/single-release-tailwind/</link>
+      <pubDate>Thu, 26 Sep 2024 22:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/single-release-tailwind/</guid>
+      <description>&lt;p&gt;Tailwind ist das zweite Lied der Konzept-EP Cycle, die EP erzählt einen einblick in den Menstruationszyklus der Sängerin Lea von Mentlen. Tailwind bedeutet so viel wie Rückenwind und erzählt von der Leichtfüssigkeit wie sie in der zweiten Zyklusphase zu spüren ist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Musikideo &#34;Victress in the Sky&#34;</title>
+      <link>//localhost:1313/news/musikideo-victress-in-the-sky/</link>
+      <pubDate>Sun, 14 Apr 2024 22:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/musikideo-victress-in-the-sky/</guid>
+      <description>&lt;p&gt;Musikvideo von &amp;ldquo;Victress in the Sky&amp;rdquo; jetzt auf Youtube!&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>/promo/onedrive/</link>
+      <link>//localhost:1313/promo/onedrive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/promo/onedrive/</guid>
-      <description>Go To: OneDrive</description>
+      <guid>//localhost:1313/promo/onedrive/</guid>
+      <description>&lt;p&gt;Go To: OneDrive&lt;/p&gt;&#xA;&lt;script&gt;&#xA;    window.location.href = &#34;https://tvonmentlen-my.sharepoint.com/:f:/g/personal/promo_kisanii_ch/EnIgTfLL7SdOub-0DcvEuNMB0OOg7IcC-nyOBgbt0RQHwg?e=Ks6voz&#34;&#xA;&lt;/script&gt;</description>
     </item>
     <item>
       <title>Bachelorkonzert</title>
-      <link>/gigs/bachelorkonzert/</link>
+      <link>//localhost:1313/gigs/bachelorkonzert/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/gigs/bachelorkonzert/</guid>
+      <guid>//localhost:1313/gigs/bachelorkonzert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Benefizkonzert in der RAB BAR Trogen</title>
+      <link>//localhost:1313/gigs/benefizkonzert-in-der-rab-bar-trogen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/benefizkonzert-in-der-rab-bar-trogen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clanx Openair Appenzell</title>
+      <link>//localhost:1313/gigs/clanx-openair-appenzell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/clanx-openair-appenzell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Duo im Kafi Zytlos</title>
+      <link>//localhost:1313/gigs/duo-im-kafi-zytlos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/duo-im-kafi-zytlos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EP Release Konzert</title>
+      <link>//localhost:1313/gigs/ep-release-konzert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/ep-release-konzert/</guid>
       <description></description>
     </item>
     <item>
       <title>Feministischer Streik</title>
-      <link>/gigs/feministischer-streich/</link>
+      <link>//localhost:1313/gigs/feministischer-streich/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/gigs/feministischer-streich/</guid>
+      <guid>//localhost:1313/gigs/feministischer-streich/</guid>
       <description></description>
     </item>
     <item>
       <title>Finale BandXOst</title>
-      <link>/gigs/finale-bandxost/</link>
+      <link>//localhost:1313/gigs/finale-bandxost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/gigs/finale-bandxost/</guid>
+      <guid>//localhost:1313/gigs/finale-bandxost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Four Disturbed Covillians - Plattentaufe</title>
+      <link>//localhost:1313/gigs/four-disturbed-covillians---plattentaufe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/four-disturbed-covillians---plattentaufe/</guid>
       <description></description>
     </item>
     <item>
       <title>Kisanii</title>
-      <link>/kisanii/</link>
+      <link>//localhost:1313/kisanii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/kisanii/</guid>
-      <description>Musik die zum Träumen einlädt. In ihren Songs verarbeitet Kisanii die Wahrnehmung ihres Körpers, ihrer Selbstzweifel aber auch der Sonnentage und Lichtblicke.</description>
+      <guid>//localhost:1313/kisanii/</guid>
+      <description>&lt;p&gt;Kisanii ist verletzlich, authentisch und unaufhaltsam ehrlich. Mit viel Platz für eigene Gedanken nimmt Kisanii ihre Hörerschaft mit auf eine Reise in emotionale Abgründe und berauschende Höhenflüge. Ihre starke Stimme lässt Herzen höher schlagen. Musikalisch überrascht sie mit mutigen Wendungen und einem Sound, der Genre-Grenzen spielerisch hinter sich lässt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kisanii Live</title>
-      <link>/gigs/kirchenkonzert/</link>
+      <link>//localhost:1313/gigs/kirchenkonzert/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/gigs/kirchenkonzert/</guid>
+      <guid>//localhost:1313/gigs/kirchenkonzert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kisanii Live am Honkytonk St. Gallen</title>
+      <link>//localhost:1313/gigs/kisanii-live-am-honkytonk-st-gallen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/kisanii-live-am-honkytonk-st-gallen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Konzert im 3. Stock (Releasetour)</title>
+      <link>//localhost:1313/gigs/konzert-im-3-stock-releasetour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/konzert-im-3-stock-releasetour/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kreiselfest @ Herisau</title>
+      <link>//localhost:1313/gigs/kreiselfest--herisau/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/kreiselfest--herisau/</guid>
       <description></description>
     </item>
     <item>
       <title>Kulturbrunch Herisau</title>
-      <link>/gigs/kulturbrunch-herisau/</link>
+      <link>//localhost:1313/gigs/kulturbrunch-herisau/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/gigs/kulturbrunch-herisau/</guid>
+      <guid>//localhost:1313/gigs/kulturbrunch-herisau/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Musig uf de Gass</title>
+      <link>//localhost:1313/gigs/musig-uf-de-gass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/musig-uf-de-gass/</guid>
       <description></description>
     </item>
     <item>
       <title>Neue Single</title>
-      <link>/pages/single/</link>
+      <link>//localhost:1313/pages/single/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/pages/single/</guid>
-      <description>Neue Infos zu meiner neuen Single folgen bald! Schau später wieder vorbei!</description>
+      <guid>//localhost:1313/pages/single/</guid>
+      <description>&lt;p&gt;Neue Infos zu meiner neuen Single folgen bald! Schau später wieder vorbei!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Physical Album Release </title>
-      <link>/gigs/plattentaufe/</link>
+      <link>//localhost:1313/gigs/plattentaufe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/gigs/plattentaufe/</guid>
+      <guid>//localhost:1313/gigs/plattentaufe/</guid>
       <description></description>
     </item>
     <item>
       <title>Qualifikation BandXOst</title>
-      <link>/gigs/qualifikation-bandxost/</link>
+      <link>//localhost:1313/gigs/qualifikation-bandxost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/gigs/qualifikation-bandxost/</guid>
+      <guid>//localhost:1313/gigs/qualifikation-bandxost/</guid>
       <description></description>
     </item>
     <item>
       <title>Radio Meltdown Jubiläumsfeier</title>
-      <link>/gigs/radio-meltdown-jubilumsfeier/</link>
+      <link>//localhost:1313/gigs/radio-meltdown-jubilumsfeier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/gigs/radio-meltdown-jubilumsfeier/</guid>
+      <guid>//localhost:1313/gigs/radio-meltdown-jubilumsfeier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Release Konzert im Leibacher</title>
+      <link>//localhost:1313/gigs/release-konzert-im-leibacher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/release-konzert-im-leibacher/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solo am Mittag</title>
+      <link>//localhost:1313/gigs/solo-am-mittag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/solo-am-mittag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Support für &#34;Four Disturbed Civillians&#34; </title>
+      <link>//localhost:1313/gigs/support-fr-four-disturbed-civillians-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/support-fr-four-disturbed-civillians-/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wohnzimmerkonzert im Presswerk Arbon</title>
+      <link>//localhost:1313/gigs/wohnzimmerkonzert-im-presswerk-arbon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/gigs/wohnzimmerkonzert-im-presswerk-arbon/</guid>
       <description></description>
     </item>
   </channel>

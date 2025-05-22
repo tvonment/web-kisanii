@@ -2,7 +2,8 @@
 baseURL: /
 title: Kisanii
 theme: hugo-theme-massively
-paginate: 6
+pagination:
+  pagerSize: 6
 summaryLength: 10
 appinsights_instrumentationkey: ""
 defaultContentLanguage: de
@@ -29,5 +30,4 @@ markup:
       unsafe: true
 disableKinds:
   - taxonomy
-  - taxonomyTerm
   - section

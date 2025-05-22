@@ -2,122 +2,177 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/news/news1/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-04-05T22:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/news/news1/"
+                href="//localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/news/news1/"
+                href="//localhost:1313/"
                 />
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/news/radiointerview-im-sr-/</loc>
+    <lastmod>2025-04-05T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/news/ep-cycle---out-on-every-plattform/</loc>
+    <lastmod>2025-03-13T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/news/single-release-tailwind/</loc>
+    <lastmod>2024-09-26T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/news/musikideo-victress-in-the-sky/</loc>
+    <lastmod>2024-04-14T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/promo/onedrive/</loc>
+  </url><url>
+    <loc>//localhost:1313/gigs/bachelorkonzert/</loc>
+  </url><url>
+    <loc>//localhost:1313/gigs/benefizkonzert-in-der-rab-bar-trogen/</loc>
+  </url><url>
+    <loc>//localhost:1313/gigs/clanx-openair-appenzell/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/"
+                href="//localhost:1313/en/gigs/clanx-openair-appenzell/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/"
+                href="//localhost:1313/gigs/clanx-openair-appenzell/"
                 />
   </url><url>
-    <loc>/promo/onedrive/</loc>
+    <loc>//localhost:1313/gigs/duo-im-kafi-zytlos/</loc>
   </url><url>
-    <loc>/gigs/bachelorkonzert/</loc>
+    <loc>//localhost:1313/gigs/ep-release-konzert/</loc>
   </url><url>
-    <loc>/gigs/feministischer-streich/</loc>
+    <loc>//localhost:1313/gigs/feministischer-streich/</loc>
   </url><url>
-    <loc>/gigs/finale-bandxost/</loc>
+    <loc>//localhost:1313/gigs/finale-bandxost/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/gigs/finale-bandxost/"
+                href="//localhost:1313/en/gigs/finale-bandxost/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/gigs/finale-bandxost/"
+                href="//localhost:1313/gigs/finale-bandxost/"
                 />
   </url><url>
-    <loc>/kisanii/</loc>
+    <loc>//localhost:1313/gigs/four-disturbed-covillians---plattentaufe/</loc>
+  </url><url>
+    <loc>//localhost:1313/kisanii/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/kisanii/"
+                href="//localhost:1313/en/kisanii/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/kisanii/"
+                href="//localhost:1313/kisanii/"
                 />
   </url><url>
-    <loc>/gigs/kirchenkonzert/</loc>
+    <loc>//localhost:1313/gigs/kirchenkonzert/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/gigs/kirchenkonzert/"
+                href="//localhost:1313/en/gigs/kirchenkonzert/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/gigs/kirchenkonzert/"
+                href="//localhost:1313/gigs/kirchenkonzert/"
                 />
   </url><url>
-    <loc>/gigs/kulturbrunch-herisau/</loc>
+    <loc>//localhost:1313/gigs/kisanii-live-am-honkytonk-st-gallen/</loc>
   </url><url>
-    <loc>/pages/single/</loc>
+    <loc>//localhost:1313/gigs/konzert-im-3-stock-releasetour/</loc>
+  </url><url>
+    <loc>//localhost:1313/gigs/kreiselfest--herisau/</loc>
+  </url><url>
+    <loc>//localhost:1313/gigs/kulturbrunch-herisau/</loc>
+  </url><url>
+    <loc>//localhost:1313/gigs/musig-uf-de-gass/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/pages/single/"
+                href="//localhost:1313/en/gigs/musig-uf-de-gass/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/pages/single/"
+                href="//localhost:1313/gigs/musig-uf-de-gass/"
                 />
   </url><url>
-    <loc>/gigs/plattentaufe/</loc>
+    <loc>//localhost:1313/pages/single/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/gigs/plattentaufe/"
+                href="//localhost:1313/en/pages/single/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/gigs/plattentaufe/"
+                href="//localhost:1313/pages/single/"
                 />
   </url><url>
-    <loc>/gigs/qualifikation-bandxost/</loc>
+    <loc>//localhost:1313/gigs/plattentaufe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/gigs/qualifikation-bandxost/"
+                href="//localhost:1313/en/gigs/plattentaufe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/gigs/qualifikation-bandxost/"
+                href="//localhost:1313/gigs/plattentaufe/"
                 />
   </url><url>
-    <loc>/gigs/radio-meltdown-jubilumsfeier/</loc>
+    <loc>//localhost:1313/gigs/qualifikation-bandxost/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-en"
-                href="/en/gigs/radio-meltdown-jubilumsfeier/"
+                href="//localhost:1313/en/gigs/qualifikation-bandxost/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-ch"
-                href="/gigs/radio-meltdown-jubilumsfeier/"
+                href="//localhost:1313/gigs/qualifikation-bandxost/"
                 />
+  </url><url>
+    <loc>//localhost:1313/gigs/radio-meltdown-jubilumsfeier/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="//localhost:1313/en/gigs/radio-meltdown-jubilumsfeier/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="//localhost:1313/gigs/radio-meltdown-jubilumsfeier/"
+                />
+  </url><url>
+    <loc>//localhost:1313/gigs/release-konzert-im-leibacher/</loc>
+  </url><url>
+    <loc>//localhost:1313/gigs/solo-am-mittag/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-en"
+                href="//localhost:1313/en/gigs/solo-am-mittag/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-ch"
+                href="//localhost:1313/gigs/solo-am-mittag/"
+                />
+  </url><url>
+    <loc>//localhost:1313/gigs/support-fr-four-disturbed-civillians-/</loc>
+  </url><url>
+    <loc>//localhost:1313/gigs/wohnzimmerkonzert-im-presswerk-arbon/</loc>
   </url>
 </urlset>

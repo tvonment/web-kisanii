@@ -10,13 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!-- CSS -->
-		{{ if .Site.IsServer }}
-		{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" true) }}
-		<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
-		{{ else }}
-		{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" false) }}
-		<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
-		{{ end }}
+		 {{/* Hugo v0.128+ removed .Site.IsServer. Use hugo.Environment instead. */}}
+        {{ if eq hugo.Environment "server" }}
+        {{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" true) }}
+        <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+        {{ else }}
+        {{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" false) }}
+        <link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
+        {{ end }}
 		{{ with .Site.Params.favicon }}
 		<link rel="shortcut icon" href="{{ . }}">
 		{{ end }}

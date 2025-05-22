@@ -2,81 +2,158 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kisanii</title>
-    <link>/en/</link>
+    <link>//localhost:1313/en/</link>
     <description>Recent content on Kisanii</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-en</language>
     <copyright>Developed by Thomas</copyright>
-    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Mar 2025 23:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Crowdfunding für Debut-EP </title>
-      <link>/en/news/news1/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>/en/news/news1/</guid>
-      <description>My first EP, &amp;ldquo;Cycle,&amp;rdquo; consists of 5 1/5 pieces of music that I composed and performed with my band during my bachelor concert.</description>
+      <title>EP - Cycle finally out</title>
+      <link>//localhost:1313/en/news/ep---cycle-finally-out/</link>
+      <pubDate>Thu, 13 Mar 2025 23:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/news/ep---cycle-finally-out/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Cycle&amp;rdquo; – Kisanii’s debut EP is out now.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tr.ee/Z4TVNvG4FM&#34;&gt;https://tr.ee/Z4TVNvG4FM&lt;/a&gt;&#xA;Across five hauntingly honest tracks, Cycle dives into repeating patterns, emotional battles, and the quiet strength it takes to break free. Kisanii&amp;rsquo;s voice cuts deep – bold yet vulnerable – carrying stories of pain, reflection, and release.&#xA;With unexpected musical turns and lyrics that linger, Cycle isn’t just an EP. It’s a feeling, a mirror, and a beginning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Musicvideo &#34;Victress in the Sky&#34; </title>
+      <link>//localhost:1313/en/news/musicvideo-victress-in-the-sky-/</link>
+      <pubDate>Sun, 14 Apr 2024 22:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/news/musicvideo-victress-in-the-sky-/</guid>
+      <description>&lt;p&gt;Musicvideo &amp;ldquo;Victress in the Sky&amp;rdquo; OUT NOW!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2yWE4H8mMUA&#34;&gt;https://www.youtube.com/watch?v=2yWE4H8mMUA&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Victress of the Sky OUT NOW!!</title>
+      <link>//localhost:1313/en/news/victress-of-the-sky-out-now/</link>
+      <pubDate>Thu, 04 Apr 2024 22:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/news/victress-of-the-sky-out-now/</guid>
+      <description>&lt;p&gt;Single &amp;ldquo;Victress in the Sky&amp;rdquo; OUT NOW&lt;/p&gt;&#xA;&lt;p&gt;Have a listen on you&amp;rsquo;re favorite Streaming Platform&lt;/p&gt;</description>
     </item>
     <item>
       <title>Physical Album Release</title>
-      <link>/en/gigs/plattentaufe/</link>
+      <link>//localhost:1313/en/gigs/plattentaufe/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-      <guid>/en/gigs/plattentaufe/</guid>
+      <guid>//localhost:1313/en/gigs/plattentaufe/</guid>
       <description></description>
     </item>
     <item>
       <title>BandXOst Final</title>
-      <link>/en/gigs/finale-bandxost/</link>
+      <link>//localhost:1313/en/gigs/finale-bandxost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/gigs/finale-bandxost/</guid>
+      <guid>//localhost:1313/en/gigs/finale-bandxost/</guid>
       <description></description>
     </item>
     <item>
       <title>BandXOst Qualifikation</title>
-      <link>/en/gigs/qualifikation-bandxost/</link>
+      <link>//localhost:1313/en/gigs/qualifikation-bandxost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/gigs/qualifikation-bandxost/</guid>
+      <guid>//localhost:1313/en/gigs/qualifikation-bandxost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charity Event in Rabbar Trogen</title>
+      <link>//localhost:1313/en/gigs/charity-event-in-rabbar-trogen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/gigs/charity-event-in-rabbar-trogen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clanx Openair Appenzell</title>
+      <link>//localhost:1313/en/gigs/clanx-openair-appenzell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/gigs/clanx-openair-appenzell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Concert in 3. Stock (Releasetour)</title>
+      <link>//localhost:1313/en/gigs/concert-in-3-stock-releasetour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/gigs/concert-in-3-stock-releasetour/</guid>
       <description></description>
     </item>
     <item>
       <title>Feminist Streik</title>
-      <link>/en/gigs/feministischer-streik/</link>
+      <link>//localhost:1313/en/gigs/feministischer-streik/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/gigs/feministischer-streik/</guid>
+      <guid>//localhost:1313/en/gigs/feministischer-streik/</guid>
       <description></description>
     </item>
     <item>
       <title>Kisanii</title>
-      <link>/en/kisanii/</link>
+      <link>//localhost:1313/en/kisanii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/kisanii/</guid>
-      <description>Music that invites you to dream. In her songs, Kisanii processes the perception of her body, her self-doubt, but also the sunny days and rays of hope.</description>
+      <guid>//localhost:1313/en/kisanii/</guid>
+      <description>&lt;p&gt;Music that invites you to dream. In her songs, Kisanii processes the perception of her body, her self-doubt, but also the sunny days and rays of hope. With spherical sounds and a strong voice, Kisanii tells the audience her thoughts and feelings about our place in this world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kisanii Duo in Coffee Zytlos </title>
+      <link>//localhost:1313/en/gigs/kisanii-duo-in-coffee-zytlos-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/gigs/kisanii-duo-in-coffee-zytlos-/</guid>
+      <description></description>
     </item>
     <item>
       <title>Kisanii Live with full Band</title>
-      <link>/en/gigs/kirchenkonzert/</link>
+      <link>//localhost:1313/en/gigs/kirchenkonzert/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/gigs/kirchenkonzert/</guid>
+      <guid>//localhost:1313/en/gigs/kirchenkonzert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kisanii Live@Honkytonk St.Gallen</title>
+      <link>//localhost:1313/en/gigs/kisanii-livehonkytonk-stgallen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/gigs/kisanii-livehonkytonk-stgallen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kreiselfest</title>
+      <link>//localhost:1313/en/gigs/kreiselfest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/gigs/kreiselfest/</guid>
       <description></description>
     </item>
     <item>
       <title>Kulturbrunch</title>
-      <link>/en/gigs/kulturbrunch/</link>
+      <link>//localhost:1313/en/gigs/kulturbrunch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/gigs/kulturbrunch/</guid>
+      <guid>//localhost:1313/en/gigs/kulturbrunch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Musig uf de Gass</title>
+      <link>//localhost:1313/en/gigs/musig-uf-de-gass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/gigs/musig-uf-de-gass/</guid>
       <description></description>
     </item>
     <item>
       <title>New Single</title>
-      <link>/en/pages/single/</link>
+      <link>//localhost:1313/en/pages/single/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/pages/single/</guid>
-      <description>new single coming soon! Check back later</description>
+      <guid>//localhost:1313/en/pages/single/</guid>
+      <description>&lt;p&gt;new single coming soon! Check back later&lt;/p&gt;</description>
     </item>
     <item>
       <title>Radio Meltdown anniversary</title>
-      <link>/en/gigs/radio-meltdown-jubilumsfeier/</link>
+      <link>//localhost:1313/en/gigs/radio-meltdown-jubilumsfeier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/gigs/radio-meltdown-jubilumsfeier/</guid>
+      <guid>//localhost:1313/en/gigs/radio-meltdown-jubilumsfeier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Release Concert</title>
+      <link>//localhost:1313/en/gigs/release-concert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/gigs/release-concert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solo am Mittag</title>
+      <link>//localhost:1313/en/gigs/solo-am-mittag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/gigs/solo-am-mittag/</guid>
       <description></description>
     </item>
   </channel>

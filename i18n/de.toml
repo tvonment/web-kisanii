@@ -38,3 +38,11 @@
   other = "Live"
 [NEWS]
   other = "Aktuelles"
+[NEWSLETTER_TITLE]
+  other = "Newsletter abonnieren"
+[NEWSLETTER_REQUIRED]
+  other = "Pflichtfeld"
+[NEWSLETTER_EMAIL_LABEL]
+  other = "E-Mail-Adresse"
+[NEWSLETTER_SUBMIT]
+  other = "Abonnieren"

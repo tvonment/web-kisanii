@@ -38,3 +38,11 @@
   other = "Live"
 [NEWS]
   other = "News"
+[NEWSLETTER_TITLE]
+  other = "Subscribe to Newsletter"
+[NEWSLETTER_REQUIRED]
+  other = "Required field"
+[NEWSLETTER_EMAIL_LABEL]
+  other = "Email address"
+[NEWSLETTER_SUBMIT]
+  other = "Subscribe"

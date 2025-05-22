@@ -47,6 +47,7 @@
       <p><a href="mailto:{{ . }}">{{ . }}</a></p>
     </section>
     {{ end }}
+    {{ partial "cta/index.html" . }}
     {{ with $data.social }}
     <section>
       <h3>{{ i18n "CONTACT_SOCIAL" . }}</h3>
